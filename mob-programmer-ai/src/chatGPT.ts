@@ -14,7 +14,7 @@ export async function getReviewComments(code: string): Promise<string> {
       {
         parts: [
           {
-            text: `このコードに対して日本語でレビューしてください。出力はプレーンテキストでお願いします。:\n${code}`
+            text: `このコードに対して日本語でレビューしてください。良い点は省略してください。問題点と改善提案のみでOKです。:\n${code}`
           }
         ]
       }
